@@ -17,6 +17,7 @@ creating many vehicles. This exercise showed how theory maps directly into pract
 
 #include <iostream>
 #include <string.h>
+#include <vector>
 
 using namespace std;
 class Vehicle
@@ -51,13 +52,6 @@ public:
         cout << "The " << type << " is accelerating to " << maxSpeed << " km/h." << endl;
     }
 
-    // Honk notification
-    void honk()
-    {
-        cout << "You use the honk!!" << endl
-             << "*Beeps* *Beeps*" << endl;
-    }
-
     // Getter
     string getType() { return type; }
     double getMaxSpeed() { return maxSpeed; }
@@ -85,6 +79,17 @@ public:
 };
 int main()
 {
+    freopen("input.txt", "r", stdin);
+    freopen("output.txt", "w", stdout);
+    string type;           // The type of the vehicle
+    double maxSpeed;       // Maximum speed of the vehicle
+    string fuelType;       // Type of fuel used
+    string color;          // Vehicle's color
+    string usage;          // Usage information (Time used)
+    double mileage;        // Total distance traveled in kilometers
+    int YearOfManufacture; // Manufactured year
+    string LicensePlate;
+
     // Create 3 Vehicle objects
     Vehicle car("Car", 200, "Gasoline", "Pink", "3 years", 8000, 2022, "93E1-42219");
     Vehicle truck("Truck", 150, "Diesel", "Blue", "5 years", 50000, 2018, "36TH-36363");
@@ -100,6 +105,29 @@ int main()
     truck.displayInfo();
     motorcycle.displayInfo();
 
-    // For fun
-    car.honk();
+    cout << "Input amounts vehicles you want: "<< endl;
+    int n;
+    cin >> n;
+
+    vector<Vehicle> vehicle;
+    for(int i=0;i<n;i++){
+        cin.ignore(256, '\n');
+        getline(cin, type);
+        cin >> maxSpeed;
+        cin.ignore(256, '\n');
+        getline(cin, fuelType);
+        getline(cin, color);
+        getline(cin, usage);
+        cin >> mileage;
+        cin >> YearOfManufacture;
+        cin.ignore(256, '\n');
+        getline(cin, LicensePlate);
+
+        Vehicle a(type, maxSpeed, fuelType, color, usage, mileage, YearOfManufacture, LicensePlate);
+        vehicle.push_back(a);
+    }
+
+    for(auto x:vehicle){
+        x.displayInfo();
+    }
 }
