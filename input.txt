@@ -1,0 +1,45 @@
+5
+Bus
+120
+Diesel
+White
+10 years
+200000
+2012
+51B-99999
+
+Bicycle
+35
+Human-power
+Green
+2 years
+500
+2021
+XE-DAP-001
+
+Electric Car
+160
+Electric
+Black
+1 year
+12000
+2023
+29E-88888
+
+Boat
+80
+Diesel
+Blue
+15 years
+50000
+2008
+VN-BOAT-77
+
+Helicopter
+250
+Kerosene
+Red
+7 years
+3000
+2015
+HN-FLY-123

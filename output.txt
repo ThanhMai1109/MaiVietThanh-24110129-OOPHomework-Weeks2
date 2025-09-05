@@ -1,0 +1,84 @@
+The Car is accelerating to 200 km/h.
+The Truck is accelerating to 150 km/h.
+The Motorcycle is accelerating to 180 km/h.
+==============================
+Vehicle type: Car
+Max speed: 200 km/h
+Fuel type: Gasoline
+Color: Pink
+Usage: 3 years
+Mileage: 8000 km
+Year of Manufacture: 2022
+License Plate: 93E1-42219
+==============================
+==============================
+Vehicle type: Truck
+Max speed: 150 km/h
+Fuel type: Diesel
+Color: Blue
+Usage: 5 years
+Mileage: 50000 km
+Year of Manufacture: 2018
+License Plate: 36TH-36363
+==============================
+==============================
+Vehicle type: Motorcycle
+Max speed: 180 km/h
+Fuel type: Gasoline
+Color: Yellow
+Usage: 1 years
+Mileage: 8000 km
+Year of Manufacture: 2022
+License Plate: 59TD-11295
+==============================
+Input amounts vehicles you want: 
+==============================
+Vehicle type: Bus
+Max speed: 120 km/h
+Fuel type: Diesel
+Color: White
+Usage: 10 years
+Mileage: 200000 km
+Year of Manufacture: 2012
+License Plate: 51B-99999
+==============================
+==============================
+Vehicle type: Bicycle
+Max speed: 35 km/h
+Fuel type: Human-power
+Color: Green
+Usage: 2 years
+Mileage: 500 km
+Year of Manufacture: 2021
+License Plate: XE-DAP-001
+==============================
+==============================
+Vehicle type: Electric Car
+Max speed: 160 km/h
+Fuel type: Electric
+Color: Black
+Usage: 1 year
+Mileage: 12000 km
+Year of Manufacture: 2023
+License Plate: 29E-88888
+==============================
+==============================
+Vehicle type: Boat
+Max speed: 80 km/h
+Fuel type: Diesel
+Color: Blue
+Usage: 15 years
+Mileage: 50000 km
+Year of Manufacture: 2008
+License Plate: VN-BOAT-77
+==============================
+==============================
+Vehicle type: Helicopter
+Max speed: 250 km/h
+Fuel type: Kerosene
+Color: Red
+Usage: 7 years
+Mileage: 3000 km
+Year of Manufacture: 2015
+License Plate: HN-FLY-123
+==============================
