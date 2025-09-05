@@ -31,6 +31,11 @@ It also shows how to:
 g++ Vehicle.cpp -o Vehicle
 ```
 
+### Run
+```bash
+./Vehicle
+```
+
 ---
 
 ## 📥 Input Format
@@ -69,7 +74,7 @@ g++ Vehicle.cpp -o Vehicle
    - mileage   // Total distance traveled in kilometers
    - YearOfManufacture  // Manufactured year
    - LicensePlate  // License plate number
-
+```
 ---
 
 ## 📝 Example Input (`input.txt`)
@@ -119,9 +124,8 @@ Red
 3000
 2015
 HN-FLY-123
-
+```
 ---
-
 ## 📤 Example Output
 ```
 The Car is accelerating to 200 km/h.
